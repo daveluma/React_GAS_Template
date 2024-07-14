@@ -9,7 +9,7 @@
       "gstart": "clasp push --force --watch",
       "gpush": "clasp push --force",
       "clean": "del-cli ./.parcel-cache ./dist \"./src/*\" \"!./src/.claspignore\" \"!./src/appsscript.json\" \"!./src/main.js\"",
-      "build": "parcel build --no-optimize src_react/index.html --dist-dir ./src",
+      "build": "parcel build optimize src_react/index.html --dist-dir ./src",
       "clean_build": "npm run clean && npm run build",
       "start": "parcel src_react/index.html --dist-dir ./src_gas"
     },

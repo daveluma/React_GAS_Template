@@ -60,7 +60,7 @@ function Navbar() {
         <div className="container-fluid">
 
           <a className="navbar-brand">
-            <img src="" alt="place_logo" width="30" height="30" className="d-inline-block align-text-top mx-2" />
+            <img src="https://www.gsa.gov/sites/gsa.gov/themes/custom/gsa/logo.png" alt="gsa_logo" width="30" height="30" className="d-inline-block align-text-top mx-2" />
             React GAS Template
           </a>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
